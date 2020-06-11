@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>textleftimageright</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#button#&gt;.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
+&lt;#button#&gt;.titleLabel?.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
+&lt;#button#&gt;.imageView?.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0B76407A-6B40-4673-8251-6AA70376C3D3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Switch button's titlelabel and imageview position</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Text Left Image Right</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
