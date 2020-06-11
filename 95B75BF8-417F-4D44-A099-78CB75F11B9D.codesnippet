@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>linehide</string>
+	<string>@property-copy-NSString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 移除navigationbar线条；保留Translucent
-self.navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")
-</string>
+	<string>@property (nonatomic,copy) NSString *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9DB0AACF-64D7-43EB-8BB1-CDF49363019B</string>
+	<string>95B75BF8-417F-4D44-A099-78CB75F11B9D</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Hide Navigationbar line, but keep translucent</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Navigationbar Line Hide</string>
+	<string>定义copy类型的NSString属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
