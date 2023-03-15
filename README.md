@@ -1,4 +1,4 @@
-# FUICodeSnippets
+# CodeSnippets
 Custom CodeSnippets for Xcode8+
 
 ### How to start
