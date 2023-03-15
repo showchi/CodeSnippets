@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSLog-%@</string>
+	<string>nslo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>NSLog(@"%@",&lt;#objectName#&gt;);</string>
@@ -14,6 +14,8 @@
 	<string>D3F74E90-BDCF-4254-8886-1FF7B699F476</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>打印对象</string>
 	<key>IDECodeSnippetUserSnippet</key>

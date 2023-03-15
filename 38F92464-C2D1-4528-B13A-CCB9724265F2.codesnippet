@@ -6,8 +6,7 @@
 	<string>textleftimageright</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#button#&gt;.transform = CGAffineTransformMakeScale(-1.0, 1.0);

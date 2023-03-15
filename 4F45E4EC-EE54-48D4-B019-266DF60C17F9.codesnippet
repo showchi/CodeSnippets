@@ -3,21 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pa</string>
+	<string>mj_newValueFromOldValue</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>- (id)mj_newValueFromOldValue:(id)oldValue property:(MJProperty *)property {
+    if (property.type.typeClass == [NSString class]) {
+        if (oldValue == nil) return @"";
+    }
+    
+    if (property.type.typeClass == [NSArray class]) {
+        if (oldValue == nil) return @[];
+    }
+    
+    if (property.type.typeClass == [NSDictionary class]) {
+        if (oldValue == nil) return @{};
+    }
+
+    return oldValue;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B0D4D7E-1B7B-442E-8004-C4C457D90D38</string>
+	<string>4F45E4EC-EE54-48D4-B019-266DF60C17F9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>定义assign类型的变量</string>
+	<string>mj_newValueFromOldValue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

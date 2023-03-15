@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pa</string>
+	<string>mj_objectClassInArray</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>+ (NSDictionary *)mj_objectClassInArray {
+    return @{
+        @"&lt;#property#&gt;": [&lt;#class#&gt; class]
+    };
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B0D4D7E-1B7B-442E-8004-C4C457D90D38</string>
+	<string>07D28BB6-6AF1-49FE-B014-DF80E2D9E2EF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>定义assign类型的变量</string>
+	<string>mj_objectClassInArray</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
